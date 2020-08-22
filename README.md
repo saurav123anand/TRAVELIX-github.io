@@ -1,1 +1,1 @@
-# TRAVELIX-github.io
+# TRAVELIX.github.io
