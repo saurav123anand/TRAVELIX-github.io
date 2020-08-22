@@ -1,0 +1,246 @@
+
+@media only screen and (max-width:915px){
+    /*nav style*/
+    .logo{
+        width:30%;
+    }
+    .nav-list{
+        width:70%;
+    }
+    /* hero section*/
+    .hero .heading1{
+        font-size: 100px;
+    }
+    .hero .heading2{
+        font-size:45px;
+    }
+}
+@media only screen and (max-width:824px){
+    /* hero section*/
+    .hero .heading1{
+        font-size: 80px;
+    }
+    .hero .heading2{
+        font-size: 37px;
+    }
+    /* booking section*/
+    .form{
+        display:initial;
+    }
+    .booking .input-group{
+        display: block;
+    }
+    .booking .input-group:first-child{
+        width:100%;
+    }
+    .booking .input-group:nth-child(2),.booking .input-group:nth-child(3){
+        width:100%;
+    }
+}
+@media only screen and (max-width:814px){
+    .navbar.height-changer{
+        height: 4rem;
+    }
+    .nav-list{
+    
+      /*  margin-right:40px;
+        display: flex;
+        justify-content: space-evenly;*/
+       flex-direction: column;
+       align-items: center;
+       position: absolute;
+       height:80vh;
+       top: 5rem;
+       right: 0px;
+       width:200px;
+       margin-right: 0px;
+       background-color:var(--purple-solid);
+       transition:all .5s;
+       transform: translateX(100%);
+    }
+    .nav-list.navlist-top{
+        top: 4rem;
+    }
+    .hamburger-menu{
+        display: block;
+        margin-right: 40px;
+    }
+    .logo{
+        width: 50%;
+    }
+    .nav-list.nav-shower{
+        transform: translateX(0%);
+    }
+    .nav-link{
+        opacity: 0;
+    }
+    .nav-link.opacity{
+        opacity: 1;
+        transition: all .5s;
+        transition-delay:.3s;
+    }
+}
+@media only screen and (max-width:700px){
+    /* hero section style*/
+    .hero .heading1{
+        font-size:60px;
+    }
+    .hero .heading2{
+        font-size: 30px;
+        margin-top: 7px;
+    }
+}
+@media only screen and (max-width:455px){
+    /*navbar style*/
+    .logo{
+        margin-left:20px;
+    }
+    .hamburger-menu{
+        margin-right:20px;
+    }
+    .logo img{
+        width: 200px;
+    }
+    .footer-top-logo img{
+        width:200px;
+    }
+    
+}
+
+@media only screen and (min-width:518px) and (max-width:688px){
+    /* hotels section style*/
+    .hotel h4{
+        font-size: 50px;
+    }
+    .hotel h6{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:409px) and (max-width: 518px){
+    /* hotels section style*/
+    .hotel h4{
+        font-size: 40px;
+    }
+    .hotel h6{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:366px){
+    /* hotels section style*/
+    .hotel-names{
+        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    }
+    /*room section style*/
+    .grid{
+        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    }
+    .review-grid{
+        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    }
+}
+
+@media only screen and (max-width:322px){
+    /* hero section style*/
+    .hero .heading1{
+        font-size:35px;
+    }
+    .hero .heading2{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width:305px){
+    #golden{
+        font-size:25px !important;
+    }
+}
+@media only screen and (min-width:1071px){
+    /*room section style*/
+    .grid{
+       grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+       grid-gap: 25px;
+    }
+    .grid-item{
+        display: flex;
+        align-items: flex-start;
+    }
+    .room-info{
+        padding-left: 23px;
+        padding-right: 10px;
+    }
+    .image-wrap .room-name{
+        padding: 9px 12px;
+    }
+    .image-wrap{
+        min-width: 250px;
+
+    }
+}
+@media only screen and (max-width:350px){
+    /*review section style*/
+    .custmore-review{
+        height:54%;
+        padding: 45px 5px;
+    }
+    .custmore-info{
+        top: 162px;
+    }
+}
+@media only screen and (min-width:537px) and (max-width:671px){
+    .review-top-header{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width:366px) and (max-width:537px){
+    .review-top-header{
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width:329px) and (max-width:366px){
+    .review-top-header{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:329px){
+    .review-top-header{
+        font-size: 17px;
+        font-weight:bolder;
+    }
+}
+@media only screen and (max-width:789px){
+    .img-item{
+        display: none;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:300px){
+    .contact-link{
+        font-size:15px;
+    }
+}
+@media only screen and (min-width:890px) and (max-width:924px){
+    /*footer section style*/
+    .footer-top{
+        width:55%;
+    }
+    .social-icons-info{
+        width:45%;
+        padding: 0 33px;
+    }   
+}
+@media only screen and (max-width:890px){
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-top{
+        width:100%;
+    }
+    .social-icons-info{
+        width: 100%;
+        padding:0px;
+    }
+}

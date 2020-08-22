@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--loader css-->
+    <link rel="stylesheet" href="./loader.css">
+    <!--aos style cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./image/icon.svg">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>TRAVELIX</title>
+</head>
+<body onload="myfunction()">
+
+    <!--loader section-->
+    <div class="loader">
+        <ul class="loader-ul">
+            <li class="loader-li"></li>
+            <li class="loader-li"></li>
+            <li class="loader-li"></li>
+        </ul>
+    </div>
+
+    <!--Nav section-->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./image/logo.png" alt="">
+        </div>
+        <div class="nav-list">
+            <li class="nav-li"><a href="index.html" class="nav-link nav-active">Home </a></li>
+            <li class="nav-li"><a href="#about-id" class="nav-link">About</a></li>
+            <li class="nav-li"><a href="#news" class="nav-link">News</a></li>
+            <li class="nav-li"><a href="#offers" class="nav-link">Offers</a></li>
+            <li class="nav-li"><a href="#contact-id" class="nav-link">Contact</a></li>
+        </div>
+
+        <div class="hamburger-menu" id="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+    </nav>
+    
+    <!--hero section-->
+    <div class="hero">
+      <div class="container hero-container">
+          <h1 class="heading1">Discover</h1>
+          <h3 class="heading2">luxury hotels</h3>
+          <a href="" class="btn-link hero-link">Explore Now
+              <span class="span"></span>
+              <span class="span"></span>
+              <span class="span"></span>
+          </a>
+      </div>
+    </div>
+
+    <!--booking section-->
+    <section class="booking">
+        <div class="container">
+            <form action="" class="form">
+                <div class="input-group">
+                    <label for="">Destination</label>
+                    <input type="text" name="" id="input1">
+                </div>
+
+                <div class="input-group">
+                    <label for="">Check In</label>
+                    <input type="date" name="" id="">
+                </div>
+        
+                <div class="input-group">
+                    <label for="">Check Out</label>
+                    <input type="date" name="" id="">
+                </div>
+
+                <div class="input-group">
+                    <label for="">Adults</label>
+                    <select name="" id="">
+                        <option value="">0</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="">Children</label>
+                    <select name="" id="">
+                        <option value="">0</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </div>
+
+                <a href="" class="btn-link booking-link">Search
+                    <span class="span"></span>
+                    <span class="span"></span>
+                    <span class="span"></span>
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <!--hotels section -->
+    <section class="hotels">
+     <div class="container">
+        <h1 class="top-header">EXPLORE</h1>
+        <h3 class="bottom-header">Our Beautiful Hotels</h3>
+        <div class="hotel-names">
+            <div class="hotel hotel1">
+                <h4>Astro Hotel</h4>
+                <h6>From $200/Night</h6>
+                <div class="stars">
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star-half rating"></i>
+                </div>
+                <a href="" class="btn-link hotel-link">Book Now
+                    <span class="span"></span>
+                    <span class="span"></span>
+                    <span class="span"></span>
+                </a>
+            </div>
+
+            <div class="hotel hotel2">
+                <h4 id="golden">Enchanted Garden</h4>
+                <h6>From $300/Night</h6>
+                <div class="stars">
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star-half rating"></i>
+                </div>
+                <a href="" class="btn-link hotel-link">Book Now
+                    <span class="span"></span>
+                    <span class="span"></span>
+                    <span class="span"></span>
+                </a>
+            </div>
+
+            <div class="hotel hotel3">
+                <h4>The Paradise</h4>
+                <h6>From $350/Night</h6>
+                <div class="stars">
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star rating"></i>
+                    <i class="fa fa-star-half rating"></i>
+                </div>
+                <a href="" class="btn-link hotel-link">Book Now
+                    <span class="span"></span>
+                    <span class="span"></span>
+                    <span class="span"></span>
+                </a>
+            </div>
+        </div>
+     </div>
+    </section>
+
+    <!--offer section-->
+    <section class="offer" id="offers">
+        <div class="container offer-container" data-aos="flip-left">
+            <h4>The Paradise</h4>
+            <h3>40% OFF</h3>
+            <div class="stars">
+                <i class="fa fa-star rating"></i>
+                <i class="fa fa-star rating"></i>
+                <i class="fa fa-star rating"></i>
+                <i class="fa fa-star rating"></i>
+                <i class="fa fa-star-half rating"></i>
+            </div>
+            <p class="para offer-para">Use promo code <strong>HOTEL17</strong> to get discounts up to 60% + 10% off using eCash on hotel bookings through <strong>TRAVELIX</strong>. With this exciting combo offer, choose a domestic hotel of your choice and avail the respective offer. Hurry! Book your rooms now.</p>
+            <a href="" class="btn-link offer-link">Redeem Offer
+                <span class="span"></span>
+                <span class="span"></span>
+                <span class="span"></span>
+            </a>
+        </div>
+    </section>
+
+    <!--room section-->
+    <section class="room" id="news">
+        <div class="container rooms-container">
+            <h1 class="top-header">LUXURIOUS</h1>
+            <h3 class="bottom-header">affordable rooms</h3>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_1.jpg" alt="">
+                       <h3 class="room-name">Astro Hotel</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">The 5-star Astro Hotel offers comfort and convenience whether you're on business or holiday in North Carolina. The hotel has everything you need for a comfortable stay and security .</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_2.jpg" alt="">
+                       <h3 class="room-name">Grand Suites</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">Stop at Hotel Grand Suites to discover the wonders of Bangalore. The property offers guests a range of services and amenities designed to provide comfort and convenience.</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_3.jpg" alt="">
+                       <h3 class="room-name">Grand Castle</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">Grand Castle is located  in NewYork, Guests can enjoy the presence of a diving pool in this hotel. For business travellers, this accommodation features a business centre and no fee internet</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_4.jpg" alt="">
+                       <h3 class="room-name">Hotel Galileo</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">Set in a prime location of Paris,Hotel Galileo puts everything the city has to offer just outside your doorstep.The property features a wide range of facilities to make your stay a pleasant experience.</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_5.jpg" alt="">
+                       <h3 class="room-name">Hotel Elysées Flaubert</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">Located in Paris’ 17th Arrondissement, Hotel Elysées Flaubert offers modern and elegant accommodation in an early twentieth century building.All 40 guest rooms are air conditioned.</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_6.jpg" alt="">
+                       <h3 class="room-name">Hotel Monceau Wagram</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">A romantic hotel in the heart of the 17th district of Paris, the 4-star Monceau Wagram offers 25 personalised rooms with balcony, a view of the patio / garden or of the city:</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_7.jpg" alt="">
+                       <h3 class="room-name">Island Dream</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">Island Dream Palace is a budget heritage hotel where Indian traditions are kept alive and is sure to conquer your hearts with its welcoming heritage hospitality giving you an experience of princely lifestyle.</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_8.jpg" alt="">
+                       <h3 class="room-name">Hotel Highway King</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">Ideally located in the prime touristic area of Bhanktrota, Hotel Highway promises a relaxing and wonderful visit. Offering a variety of facilities and services, the hotel provides all you need for a good night's sleep.</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_9.jpg" alt="">
+                       <h3 class="room-name">Park Ocean</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">Park Ocean, located in the Amsterdam. Park Ocean pampers the style conscious and upbeat traveler with its personalized services, premium in-room amenities, award winning restaurants and fun experiences.</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image-wrap">
+                       <img src="./image/room_10.jpg" alt="">
+                       <h3 class="room-name">The Cameron</h3>
+                    </div>
+                    <div class="room-info">
+                        <span class="room-price">$200</span>
+                        <span class="per-night">per night</span>
+                        <p class="para room-para">The Cameron is a popular choice amongst travelers in New Delhi and NCR, whether exploring or just passing through. Both business travelers and tourists can enjoy the hotel's facilities and services.</p>
+                        <a href="" class="room-link">Book Now &rrarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--review section-->
+    <section class="review" id="about-id">
+        <div class="container">
+           <h1 class="top-header review-top-header">What Our Clients Say About Us</h1>
+           <div class="review-grid">
+               <div class="review-grid-item review-grid-item1">
+                   <div class="custmore-info">
+                       <h3 class="custmore-name">Emma Smith</h3>
+                       <small class="date">May24,2018</small>
+                   </div>
+                   <div class="custmore-review">
+                       <h4>"&nbsp;Best holiday ever&nbsp;"</h4>
+                       <p class="custmore-para">Simple very nicely done and managed place . Good attentive staff , great food , nice quote location,good wifi .. very good value for money place </p>
+                   </div>
+               </div>
+
+               <div class="review-grid-item review-grid-item2">
+                   <div class="custmore-info">
+                       <h3 class="custmore-name">Camila Stark</h3>
+                       <small class="date">March 19,2020</small>
+                   </div>
+                   <div class="custmore-review">
+                       <h4>"&nbsp;Good&nbsp;"</h4>
+                       <p class="custmore-para">The rooms are clean, Comfortable beds.It has a lovely setup.good wifi. And important..away from the noise in the old city. Food in the restaurant is good. </p>
+                   </div>
+               </div>
+
+               <div class="review-grid-item review-grid-item3">
+                   <div class="custmore-info">
+                       <h3 class="custmore-name">Mary Stone</h3>
+                       <small class="date">Jun15,2019</small>
+                   </div>
+                   <div class="custmore-review">
+                       <h4>"&nbsp;Wonderful&nbsp;"</h4>
+                       <p class="custmore-para">The staff is really awesome! They were very helpfull with everything and very welcoming..Breakfast is good with very options.Everything was also very clean. </p>
+                   </div>
+               </div>
+
+           </div>
+        </div>
+       </section>
+      <hr>
+
+       <!--contact section-->
+
+       <section class="contact">
+           <div class="container">
+              <h1 class="top-header">CONTACT</h1>
+              <h3 class="bottom-header">Get in Touch</h3>
+              <div class="flex">
+                  <div class="flex-item img-item">
+                      <img src="./image/traveler.png" alt="" class="flex-item-1-img">
+                  </div>
+
+                 <form action="" class="flex-item contact-form">
+                     <div class="controller">
+
+                          <div class="row-input contact-input">
+                              <div class="row-input-1">
+                                  <input type="text" name="" id=""  class="floater-input row-floater-input" placeholder="Name">
+                                  <span class="contact-input-span"></span>
+                              </div>
+                              <div class="row-input-2">
+                                  <input type="email" name="" class="floater-input row-floater-input" placeholder="Email">
+                                  <span class="contact-input-span"></span>
+                              </div>
+                          </div>
+
+                          <div class="contact-input subject-input">
+                              <input type="text" name="" class="floater-input" placeholder="Subject">
+                              <span class="contact-input-span"></span>
+                          </div>
+
+                          <div class="contact-input subject-input">
+                              <textarea name="" class="floater-textarea" cols="30" rows="10"></textarea>
+                              <span class="contact-input-span textarea-input-span"></span>
+                          </div>
+                    </div>
+                          <a href="" class="btn-link contact-link">Send Message
+                            <span class="span"></span>
+                            <span class="span"></span>
+                            <span class="span"></span>
+                        </a>
+                </form>
+
+              </div>
+           </div>
+       </section>
+
+       <!--footer section-->
+       <footer class="footer">
+         <div class="footer-flex">
+            <div class="container footer-container">
+               <div class="footer-top">
+                  <div class="footer-top-logo">
+                    <img src="./image/logo.png" alt="">
+                   </div>
+                  <p class="para footer-para">We are back in the post-pandemic world with a bouquet of hotels across World ranging from leisure to business ones with a new outlook. TRAVELIX who has always been on the forefront of assuring a comfortable stay which is a bang for your bucks, is offering you online hotel booking that guarantees you hygienic, sanitised rooms across hotels in the World.Explore a raft of interesting features such as Clean Pass stays, travel again offers and long stay discounts encouraging you to travel again, make your hotel booking while keeping your anxieties at bay. </p>
+                </div>
+             
+                <div class="social-icons-info" id="contact-id">
+                 <h3>Follow Us</h3>
+                 <div class="social-icons">
+                   <a href="https://twitter.com/kumar_saurav12" class="social-link" target="_blank"><i class="fa fa-twitter"></i></a>
+                   <a href="https://www.facebook.com/sauravkumar.jha.520" class="social-link" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                   <a href="https://www.instagram.com/iamsauravjohnson/" class="social-link" target="_blank"><i class="fa fa-instagram"></i></a>
+                   <a href="https://in.pinterest.com/123sauravanand/boards/" class="social-link" target="_blank"><i class="fa fa-pinterest"></i></a>
+                   <a href="https://github.com/saurav123anand" class="social-link" target="_blank"><i class="fa fa-github"></i></a>
+                 </div>
+               </div>
+            </div>
+          </div>
+
+          <div class="copyright-section">
+              <p class="footer-copyright">Copyright &copy; TRAVELIX - All Rights Reserved</p>
+              <p class="developer">Developed By Kumar Saurav</p>
+          </div>
+     </footer>
+    <script>
+         let hamburger=document.getElementById('hamburger')
+         let navlist=document.querySelector('.nav-list')
+         let navbar=document.querySelector('.navbar')
+         let navlink=document.querySelectorAll('.nav-link')
+         for (let i = 0; i <navlink.length; i++) {
+            hamburger.addEventListener('click',()=>{
+             navlink[i].classList.toggle('opacity')
+         })
+             
+         }
+         hamburger.addEventListener('click',()=>{
+             navlist.classList.toggle('nav-shower')
+         })
+         window.addEventListener('scroll',()=>{
+             navbar.classList.toggle('background-changer',window.scrollY>0)
+             navbar.classList.toggle('height-changer',window.scrollY>0)
+             navlist.classList.toggle('navlist-top',window.scrollY>0)
+         })
+         let loader=document.querySelector('.loader')
+          function myfunction(){
+             loader.style.display='none'
+         }
+
+    </script>
+
+    <!--aos js cdn-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--INITIALIZE AOS-->
+    <script>
+        AOS.init({
+            offset:350,
+            duration:1000
+        });
+    </script>
+</body>
+</html>
